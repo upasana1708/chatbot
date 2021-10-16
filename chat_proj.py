@@ -7,6 +7,10 @@ import string # to process standard python strings
 from sklearn.feature_extraction.text import TfidfVectorizer # To represent sentences in a common format
 from sklearn.metrics.pairwise import cosine_similarity # To find the similarity between sentences
 import nltk
+# nltk.download('popular', quiet=True) # for downloading packages
+# nltk.download('punkt') # only first time
+# nltk.download('wordnet') # only first time
+
 from nltk.stem import WordNetLemmatizer
 
 # Reading the document
